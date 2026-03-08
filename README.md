@@ -16,3 +16,13 @@ loads curated datasets into BigQuery via Parquet files on GCS.
 
 This repository simulates AWS S3 locally using MinIO while
 using real GCS and BigQuery for ingestion validation.
+
+# Local Infrastructure
+
+Docker Compose is used to run local services:
+
+- MinIO (S3-compatible object storage)
+- Hive Metastore
+- PostgreSQL (Metastore backend)
+
+These services simulate a cloud data lake locally.
