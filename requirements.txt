@@ -1,0 +1,7 @@
+kagglehub
+pandas
+sqlalchemy
+sqlalchemy-trino
+trino
+s3fs
+pyarrow
